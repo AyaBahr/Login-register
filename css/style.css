@@ -1,0 +1,53 @@
+body {
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+nav{
+    background-color: #24353f;
+    box-shadow: -5px 1px 60px -12px #000000;
+}
+nav button{
+    color: #bfc3c8 !important;
+}
+nav button:focus {
+    box-shadow: 0 0 0 3px #fff700b1;
+}
+.row {
+    background-color: #24353f;
+    box-shadow: -5px 1px 60px -10px #000000;
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+input {
+    background-color: transparent !important;
+    color: #bfc3c8 !important;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+input::placeholder {
+    color: #bfc3c8 !important;
+}
+
+.btn-outline-info {
+    color: #17a2b8 !important;
+}
+
+.btn-outline-info:hover {
+    background-color: #17a2b8 !important;
+    color: #fff !important;
+}
+
+.btn-outline-info:focus {
+    box-shadow: 0 0 0 3px #17a3b881;
+}
+
+p>a:hover {
+    text-decoration: underline !important;
+}
+
